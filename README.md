@@ -73,9 +73,9 @@ weather-app/
     |-- icon-512x512.png
 ```
 
-## Student Information
-- **Name**: Arda Ata Arslan
-- **Student ID**: 35817
+## Students Information
+- **Names**: Arda Ata Arslan / Hava Basaslan
+- **Students ID**: 35817  / 38248
 
 ## Usage Instructions
 - Open the application in a browser.
