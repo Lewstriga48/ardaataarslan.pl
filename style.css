@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Tarayıcı varsayılan boşluklarını kaldır */
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    width: 500px; /* Tüm cihazlar için optimize edilmiş genişlik */
+}
+
+button {
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #e68900;
+    transform: scale(1.05); /* Hover sırasında hafif büyüme efekti */
+}
+
+button:active {
+    transform: scale(0.95); /* Tıklama sırasında hafif küçülme efekti */
+}
+
+/* Şehir arama kutusu */
+.search-box {
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #4facfe;
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+}
+
+/* Input alanı */
+.search-container input[type="text"] {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 8px;
+    flex-grow: 1;
+    border-radius: 30px;
+    color: #333;
+}
+
+/* Input placeholder görünümü */
+.search-container input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Search butonu */
+.search-container button {
+    background-color: #4facfe;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #3a8ed6;
+}
+
+.search-container button:active {
+    transform: scale(0.95);
+}
+
+/* About sayfası için genel stil */
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #4facfe;
+    text-align: center;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.container ul {
+    list-style-type: disc;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #ddd;
+}
+
+.container ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Forecast container */
+#forecastContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.forecast-item {
+    background-color: #fff;
+    border: 2px solid #4facfe;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.forecast-item p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
